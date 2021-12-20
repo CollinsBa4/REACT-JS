@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #f1f5f8;
+    color: #222;
+    /* border: 1px solid white; */
+
+}
+
+.booklist{
+    width: 90vw;
+    max-width: 1170px;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+}
+@media  screen and (min-width:768px) {
+    .booklist{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+.book{
+    background: #fff;
+    border-radius: 10px;
+    padding:1rem 2rem;
+
+}
+.header{
+    height: 50px;
+    top :0;
+    padding: 10px 20px;
+    background-color: #0074D9;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+
+}
+.header h2{
+    color:white;
+}
+.head{
+    color:black;
+     width: 50rem;
+    height: 100px;
+   
+    border-radius: 8px;
+
+}
+.header ul {
+     justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    right: 40px;
+ }
+ 
+.header  a{
+    width: 100px;
+     margin:12px;
+    color:white;
+    text-decoration:none;
+}
+.footer p{
+    background-color:#0074D9;
+     padding-left: 40%;
+     color:white;
+     bottom: 0;
+}
+.btn{
+    width: 80px;
+    height:35px;
+    background-color: black;   
+    color:white;  
+    border-radius:4px;
+    border: 2px solid black;
+    margin: 10px 0;
+    transition-duration: 0.4s;
+    
+}
+.btn:hover{
+    background-color:white;   
+    color:#0074D9;  
+}
+.div{
+    justify-content: space-evenly;
+        border-radius: 8px;
+     margin: 30px 20% ; 
+    display: flex;
+    flex-direction: column;
+     background:white;
+    padding: 30px 20px 10px 20px; 
+}
+.di{
+
+    margin: 40px auto; ;
+    display: flex;
+    flex-direction: column;
+}
+#fname,#lname,#age,#sex,textarea{
+    width: 300px;
+    height:40px;
+    border-radius:2px;
+    border:1px solid #0074D9;
+
+}
+label{
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+ 
+.li{
+    margin-bottom:10px;
+    border-bottom:2px solid #0074D9
+}
+.input{
+    background-color: rgba(240, 255, 255, 0.788);
+    height:35px;
+    width:280px;
+    border:1px solid black;
+    border-radius:3px;
+    margin-right: 10px;
+}
+.modal{
+    border-radius: 8px;
+ margin: 30px 40% ; 
+display: flex;
+flex-direction: column;
+ background:white;
+padding: 30px 20px 10px 20px; 
+}
